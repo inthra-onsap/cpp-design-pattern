@@ -1,5 +1,5 @@
-#ifndef CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H
-#define CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H
+#ifndef CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H_
+#define CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H_
 
 #include "interface_shape.h"
 
@@ -16,4 +16,4 @@ class Circle: public InterfaceShape {
 } // namespace creation_pattern
 } // namespace cpp_design_pattern
 
-#endif //CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H
+#endif //CPP_DESIGN_PATTERN_FACTORY_CIRCLE_H_

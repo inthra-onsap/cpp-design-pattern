@@ -1,5 +1,5 @@
-#ifndef CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H
-#define CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H
+#ifndef CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H_
+#define CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H_
 
 #include <string>
 
@@ -14,4 +14,4 @@ class InterfaceShape {
 } // namespace creation_pattern
 } // namespace cpp_design_pattern
 
-#endif //CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H
+#endif //CPP_DESIGN_PATTERN_FACTORY_ABSTRACT_SHAPE_H_

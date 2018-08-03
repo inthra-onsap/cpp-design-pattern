@@ -1,5 +1,5 @@
-#ifndef CPP_DESIGN_PATTERN_SHAPE_FACTORY_H
-#define CPP_DESIGN_PATTERN_SHAPE_FACTORY_H
+#ifndef CPP_DESIGN_PATTERN_SHAPE_FACTORY_H_
+#define CPP_DESIGN_PATTERN_SHAPE_FACTORY_H_
 
 #include "circle.h"
 #include "rectangle.h"
@@ -27,4 +27,4 @@ class ShapeFactory {
 } // namespace cpp_design_pattern
 
 
-#endif //CPP_DESIGN_PATTERN_SHAPE_FACTORY_H
+#endif //CPP_DESIGN_PATTERN_SHAPE_FACTORY_H_

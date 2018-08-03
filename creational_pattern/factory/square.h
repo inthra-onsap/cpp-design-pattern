@@ -1,5 +1,5 @@
-#ifndef CPP_DESIGN_PATTERN_FACTORY_SQUARE_H
-#define CPP_DESIGN_PATTERN_FACTORY_SQUARE_H
+#ifndef CPP_DESIGN_PATTERN_FACTORY_SQUARE_H_
+#define CPP_DESIGN_PATTERN_FACTORY_SQUARE_H_
 
 #include "interface_shape.h"
 
@@ -16,4 +16,4 @@ class Square: public InterfaceShape {
 } // namespace creation_pattern
 } // namespace cpp_design_pattern
 
-#endif //CPP_DESIGN_PATTERN_FACTORY_SQUARE_H
+#endif //CPP_DESIGN_PATTERN_FACTORY_SQUARE_H_

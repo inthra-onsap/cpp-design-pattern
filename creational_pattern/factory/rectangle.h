@@ -1,5 +1,5 @@
-#ifndef CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H
-#define CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H
+#ifndef CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H_
+#define CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H_
 
 #include "interface_shape.h"
 
@@ -16,4 +16,4 @@ class Rectangle: public InterfaceShape {
 } // namespace creation_pattern
 } // namespace cpp_design_pattern
 
-#endif //CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H
+#endif //CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H_

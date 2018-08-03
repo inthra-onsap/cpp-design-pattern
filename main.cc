@@ -1,8 +1,8 @@
 #include <iostream>
-#include "creational_pattern/factory/factory_main.cc"
+#include "creational_pattern/singleton/singleton_main.cc"
 
 int main() {
-  cpp_design_pattern::creational_pattern::FactoryMain().run();
+  cpp_design_pattern::creational_pattern::SingletonMain().run();
 
   return 0;
 }
