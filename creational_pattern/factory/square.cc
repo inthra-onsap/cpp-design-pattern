@@ -7,7 +7,7 @@ std::string Square::draw() {
   return "Draw Square";
 }
 
-AbstractShape* Square::getInstance() {
+InterfaceShape* Square::getInstance() {
   return new Square();
 }
 

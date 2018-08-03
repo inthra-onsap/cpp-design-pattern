@@ -3,11 +3,11 @@
 namespace cpp_design_pattern {
 namespace creational_pattern {
 
-void ShapeFactory::registerClass(std::string className, AbstractShape *(*instanciator)()) {
+void ShapeFactory::registerClass(std::string className, InterfaceShape *(*instanciator)()) {
   container[className] = instanciator;
 }
 
-AbstractShape *ShapeFactory::getInstance(std::string className) {
+InterfaceShape *ShapeFactory::getInstance(std::string className) {
   return container[className]();
 }
 

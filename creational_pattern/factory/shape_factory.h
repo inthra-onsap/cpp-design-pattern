@@ -11,13 +11,13 @@
 namespace cpp_design_pattern {
 namespace creational_pattern {
 
-typedef std::unordered_map<std::string, AbstractShape *(*)()> CLASS_CONTAINER;
+typedef std::unordered_map<std::string, InterfaceShape *(*)()> CLASS_CONTAINER;
 
 class ShapeFactory {
  public:
-  void registerClass(std::string className, AbstractShape *(* instanciator)());
+  void registerClass(std::string className, InterfaceShape *(* instanciator)());
 
-  AbstractShape *getInstance(std::string className);
+  InterfaceShape *getInstance(std::string className);
 
  private:
   CLASS_CONTAINER container;

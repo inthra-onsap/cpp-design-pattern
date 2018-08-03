@@ -7,7 +7,7 @@ std::string Circle::draw() {
   return "Draw Circle";
 }
 
-AbstractShape* Circle::getInstance() {
+InterfaceShape* Circle::getInstance() {
   return new Circle();
 }
 

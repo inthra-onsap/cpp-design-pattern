@@ -1,16 +1,16 @@
 #ifndef CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H
 #define CPP_DESIGN_PATTERN_FACTORY_RECTANGLE_H
 
-#include "abstract_shape.h"
+#include "interface_shape.h"
 
 namespace cpp_design_pattern {
 namespace creational_pattern {
 
-class Rectangle: public AbstractShape {
+class Rectangle: public InterfaceShape {
  public:
   virtual std::string draw();
 
-  static AbstractShape* getInstance();
+  static InterfaceShape* getInstance();
 };
 
 } // namespace creation_pattern

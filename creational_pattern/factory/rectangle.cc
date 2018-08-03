@@ -7,7 +7,7 @@ std::string Rectangle::draw() {
   return "Draw Rectangle";
 }
 
-AbstractShape* Rectangle::getInstance() {
+InterfaceShape* Rectangle::getInstance() {
   return new Rectangle();
 }
 

@@ -6,7 +6,7 @@
 namespace cpp_design_pattern {
 namespace creational_pattern {
 
-class AbstractShape {
+class InterfaceShape {
  public:
   virtual std::string draw() = 0;
 };
