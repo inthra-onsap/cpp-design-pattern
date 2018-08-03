@@ -15,4 +15,3 @@ AbstractShape *ShapeFactory::getInstance(std::string className) {
 } // namespace cpp_design_pattern
 
 
-#endif //CPP_DESIGN_PATTERN_SHAPE_FACTORY_H

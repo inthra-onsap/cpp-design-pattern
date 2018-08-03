@@ -15,13 +15,9 @@ typedef std::unordered_map<std::string, AbstractShape *(*)()> CLASS_CONTAINER;
 
 class ShapeFactory {
  public:
-  void registerClass(std::string className, AbstractShape *(* instanciator)()) {
-    container[className] = instanciator;
-  }
+  void registerClass(std::string className, AbstractShape *(* instanciator)());
 
-  AbstractShape *getInstance(std::string className) {
-    return container[className]();
-  }
+  AbstractShape *getInstance(std::string className);
 
  private:
   CLASS_CONTAINER container;
