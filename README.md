@@ -12,6 +12,7 @@
 ## Behavioral Design Pattern
 
 - [Filter](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/behavioral_pattern/filter)
+- [Chain of Responsibility](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/behavioral_pattern/chain_of_responsibility)
 
 
 

@@ -1,8 +1,8 @@
 #include <iostream>
-#include "structural_pattern/flyweight/flyweight_main.cc"
+#include "behavioral_pattern/chain_of_responsibility/chain_of_responsibility_main.cc"
 
 int main() {
-  cpp_design_pattern::structural_pattern::FlyWeightMain().run();
+  cpp_design_pattern::behavioral_pattern::ChainOfResponsibilityMain().run();
 
   return 0;
 }
