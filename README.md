@@ -21,5 +21,6 @@
 - [Adapter](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/adapter)
 - [Bridge](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/bridge)
 - [Decorator](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/decorator)
+- [FlyWeight](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/flyweight)
 
 
