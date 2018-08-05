@@ -1,8 +1,8 @@
 #include <iostream>
-#include "behavioral_pattern/filter/filter_main.cc"
+#include "structural_pattern/decorator/decorator_main.cc"
 
 int main() {
-  cpp_design_pattern::behavioral_pattern::FilterMain().run();
+  cpp_design_pattern::structural_pattern::DecoratorMain().run();
 
   return 0;
 }
