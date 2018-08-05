@@ -1,8 +1,8 @@
 #include <iostream>
-#include "structural_pattern/bridge/bridge_main.cc"
+#include "behavioral_pattern/filter/filter_main.cc"
 
 int main() {
-  cpp_design_pattern::structural_pattern::BridgeMain().run();
+  cpp_design_pattern::behavioral_pattern::FilterMain().run();
 
   return 0;
 }
