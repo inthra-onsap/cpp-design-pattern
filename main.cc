@@ -1,8 +1,8 @@
 #include <iostream>
-#include "creational_pattern/builder/builder_main.cc"
+#include "structural_pattern/adapter/adapter_main.cc"
 
 int main() {
-  cpp_design_pattern::creational_pattern::BuilderMain().run();
+  cpp_design_pattern::structural_pattern::AdapterMain().run();
 
   return 0;
 }
