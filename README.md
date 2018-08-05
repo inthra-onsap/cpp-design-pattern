@@ -11,4 +11,4 @@
 
 ## Structural Design Pattern
 
-- [Builder](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/adapter)
+- [Adapter](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/structural_pattern/adapter)
