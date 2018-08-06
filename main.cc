@@ -1,8 +1,8 @@
 #include <iostream>
-#include "behavioral_pattern/chain_of_responsibility/chain_of_responsibility_main.cc"
+#include "behavioral_pattern/command/command_main.cc"
 
 int main() {
-  cpp_design_pattern::behavioral_pattern::ChainOfResponsibilityMain().run();
+  cpp_design_pattern::behavioral_pattern::CommandMain().run();
 
   return 0;
 }
