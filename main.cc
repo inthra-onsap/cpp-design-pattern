@@ -1,8 +1,8 @@
 #include <iostream>
-#include "behavioral_pattern/command/command_main.cc"
+#include "behavioral_pattern/interpreter/interpreter_main.cc"
 
 int main() {
-  cpp_design_pattern::behavioral_pattern::CommandMain().run();
+  cpp_design_pattern::behavioral_pattern::Interpreter().run();
 
   return 0;
 }
