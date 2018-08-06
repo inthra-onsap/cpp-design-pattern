@@ -8,11 +8,9 @@ namespace behavioral_pattern {
 
 class ChatUser {
  public:
-  ChatUser(ChatRoom *chatRoom_) : chatRoom{chatRoom_} {}
+  ChatUser(ChatRoom *chatRoom_);
 
-  void sendMessage(std::string msg) {
-    chatRoom->showMessage(msg);
-  }
+  void sendMessage(std::string msg);
 
  private:
   ChatRoom *chatRoom;

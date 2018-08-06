@@ -16,6 +16,10 @@ class MediatorMain {
     alice->sendMessage("Hi, Etran");
     etran->sendMessage("Hi, Alice");
 
+    delete chatRoom;
+    delete alice;
+    delete etran;
+
   }
 };
 

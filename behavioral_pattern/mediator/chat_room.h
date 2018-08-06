@@ -9,9 +9,7 @@ namespace behavioral_pattern {
 
 class ChatRoom {
  public:
-  void showMessage(std::string msg) {
-    std::cout << msg << std::endl;
-  }
+  void showMessage(std::string msg);
 };
 
 } //namespace behavioral_pattern
