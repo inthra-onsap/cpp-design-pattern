@@ -1,8 +1,8 @@
 #include <iostream>
-#include "behavioral_pattern/interpreter/interpreter_main.cc"
+#include "behavioral_pattern/mediator/mediator_main.cc"
 
 int main() {
-  cpp_design_pattern::behavioral_pattern::Interpreter().run();
+  cpp_design_pattern::behavioral_pattern::MediatorMain().run();
 
   return 0;
 }
