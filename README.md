@@ -18,6 +18,8 @@
 - [Observer](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/creational_pattern/observer)
 - [State](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/creational_pattern/state)
 - [Strategy](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/creational_pattern/strategy)
+- [Template](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/creational_pattern/template)
+- [Visitor](https://github.com/inthra-onsap/cpp-design-pattern/tree/master/creational_pattern/visitor)
 
 
 ## Structural Design Pattern
