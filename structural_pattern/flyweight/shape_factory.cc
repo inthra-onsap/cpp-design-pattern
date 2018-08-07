@@ -1,4 +1,4 @@
-#include "ShapeFactory.h"
+#include "shape_factory.h"
 
 namespace cpp_design_pattern {
 namespace structural_pattern {

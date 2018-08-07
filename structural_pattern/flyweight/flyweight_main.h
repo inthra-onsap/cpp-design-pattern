@@ -1,7 +1,7 @@
 #ifndef CPP_DESIGN_PATTERN_STRUCTURAL_FLYWEIGHT_MAIN_H_
 #define CPP_DESIGN_PATTERN_STRUCTURAL_FLYWEIGHT_MAIN_H_
 
-#include "ShapeFactory.h"
+#include "shape_factory.h"
 
 #include <vector>
 
