@@ -10,61 +10,31 @@ namespace behavioral_pattern {
 
 class AtmMachine: AbstractAtmMachine {
  public:
-  AtmMachine(float totalCash_) : totalCash{totalCash_}, isPinCorrect{false} {
-    hasCard = new HasCard(this);
-    hasPin = new HasPin(this);
-    noCard = new NoCard(this);
+  AtmMachine(float totalCash_);
 
-    atmState = noCard;
-  }
+  std::string insertCard();
 
-  std::string insertCard() {
-    return atmState->hasCard();
-  }
+  std::string ejectCard();
 
-  std::string ejectCard() {
-    return atmState->ejectCard();
-  }
+  std::string insertPin(int pinEntered);
 
-  std::string insertPin(int pinEntered) {
-    return atmState->insertPin(pinEntered);
-  }
+  void addCash(int amount);
 
-  void addCash(int amount) {
-    totalCash += amount;
-  }
+  std::string requestCash(int amount);
 
-  void withdrawCash(int amount) {
-    totalCash -= amount;
-  }
+  virtual void withdrawCash(int amount);
 
-  int viewTotalCash() {
-    return totalCash;
-  }
+  virtual int viewTotalCash();
 
-  std::string requestCash(int amount) {
-    return atmState->requestCash(amount);
-  }
+  virtual void setHasCardState();
 
-  void setHasCardState() {
-    atmState = hasCard;
-  }
+  virtual void setNoCardState();
 
-  void setNoCardState() {
-    atmState = noCard;
-  }
+  virtual void setHasPinState();
 
-  void setHasPinState() {
-    atmState = hasPin;
-  }
+  virtual void setPinCorrect();
 
-  void setPinCorrect() {
-    isPinCorrect = true;
-  }
-
-  void setPinIncorrect() {
-    isPinCorrect = false;
-  }
+  void setPinIncorrect();
 
  private:
   AbstractAtmState *hasCard;

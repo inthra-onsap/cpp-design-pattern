@@ -8,36 +8,15 @@ namespace behavioral_pattern {
 
 class HasCard : public AbstractAtmState {
  public:
-  HasCard(AbstractAtmMachine *atmMachine_):atmMachine{atmMachine_}{}
+  HasCard(AbstractAtmMachine *atmMachine_);
 
-  virtual std::string hasCard() {
-    return "you can't enter more than one card";
-  }
+  virtual std::string hasCard();
 
-  virtual std::string ejectCard() {
-    atmMachine->setPinIncorrect();
-    atmMachine->setNoCardState();
+  virtual std::string ejectCard();
 
-    return "card is ejected";
-  }
+  virtual std::string insertPin(int pinEntered);
 
-  virtual std::string insertPin(int pinEntered) {
-    if (pinEntered == 1234) {
-      atmMachine->setPinCorrect();
-      atmMachine->setHasPinState();
-
-      return "pin is correct";
-    } else {
-      atmMachine->setPinIncorrect();
-      atmMachine->setNoCardState();
-
-      return "pin is incorrect";
-    }
-  }
-
-  virtual std::string requestCash(int amount) {
-    return "please enter your pin";
-  }
+  virtual std::string requestCash(int amount);
 
  private:
   AbstractAtmMachine *atmMachine;
